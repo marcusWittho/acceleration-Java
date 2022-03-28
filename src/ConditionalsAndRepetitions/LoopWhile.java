@@ -2,8 +2,8 @@ package ConditionalsAndRepetitions;
 
 import java.util.Arrays;
 
-public class While {
-	public static void main(String[] args) {
+public class LoopWhile {
+	public void inscriptions() {
 		String[] inscritos = {
 				"MARCOS",
 				"ALINE",
@@ -19,7 +19,7 @@ public class While {
 		int vagaAtual = 0;
 		StringBuilder stringBuilder = new StringBuilder();
 		String inscrito = "Indefinido";
-		StringBuilder log;
+		StringBuilder log = null;
 		
 		while (vagaAtual < numeroVagas) {
 			inscrito = inscritos[vagaAtual];
@@ -31,9 +31,9 @@ public class While {
 			
 			vagas[vagaAtual] = inscrito;
 			vagaAtual += 1;
-
-			System.out.println("Array com os 3 primeiros nomes: " + Arrays.toString(vagas) + "\n");
-			System.out.println(log);
 		}
+
+		System.out.println("Array com os 3 primeiros nomes: " + Arrays.toString(vagas) + "\n");
+		System.out.println(log);
 	}
 }

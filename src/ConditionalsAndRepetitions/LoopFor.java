@@ -2,9 +2,9 @@ package ConditionalsAndRepetitions;
 
 import java.util.Arrays;
 
-public class For {
-	public static void main(String[] args) {
-		
+public class LoopFor {
+	public void makeTriangle() {
+
 		String[][] matrix = new String[5][9];		
 		float middleOfMatrix = (float) Math.floor(9 / 2f);
 		byte left = (byte) middleOfMatrix;

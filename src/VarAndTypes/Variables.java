@@ -1,7 +1,8 @@
 package VarAndTypes;
 
 public class Variables {
-	public static void main(String[] args) {
+	
+	public void makeString() {
 		StringBuilder stringBuilder = new StringBuilder();
 		
 		String a = "Marcus";

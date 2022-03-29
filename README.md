@@ -5,3 +5,6 @@
 
 ### Ao rodar a classe 'for'  do pacote 'ConditionalsAndRepetitions' teremos o seguinte resultado
 ![for output](images/class_for.png)
+
+### Ao utilizar a classe 'Livro' do pacote 'JavaClasses' teremos o seguinte resultado
+![Calss Livro output](images/class_livro.png)

@@ -27,7 +27,7 @@ public class LoopWhile {
 			log = stringBuilder
 					.append("Adicionando a inscrição: ").append(inscrito)
 					.append("\nNa vaga: ").append(vagaAtual + 1)
-					.append("\n--------\n\n");
+					.append("\n--------");
 			
 			vagas[vagaAtual] = inscrito;
 			vagaAtual += 1;

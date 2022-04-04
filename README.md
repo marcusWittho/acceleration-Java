@@ -8,3 +8,5 @@
 
 ### Ao utilizar a classe 'Livro' do pacote 'JavaClasses' teremos o seguinte resultado
 ![Calss Livro output](images/class_livro.png)
+
+### Adicionado aos exemplos o pacote inheritance_1 com duas classes para exemplificar a utilização de herança.

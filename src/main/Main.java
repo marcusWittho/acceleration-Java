@@ -5,6 +5,7 @@ import JavaClasses.Livro;
 import ConditionalsAndRepetitions.LoopFor;
 import ConditionalsAndRepetitions.LoopWhile;
 import VarAndTypes.Variables;
+import inheritance_1.Character_1;
 
 public class Main {
   public static void main(String[] args) {
@@ -43,6 +44,16 @@ public class Main {
 
     livro.setPages(100);
     System.out.println("Total de páginas atualizado: " + livro.getPages());
+
+    System.out.println("\n==============================\n\n");
+    
+    Character_1 char_1 = new Character_1(1.0f, 2.0f, 3.0f); 
+    System.out.println("Exemplo de utilização de herança");
+    System.out.println("-----------------------------------");
+    System.out.println("Life do novo char: " + char_1.getLife());
+    System.out.println("strength do novo char: " + char_1.getStrength());
+    System.out.println("Damage do novo char: " + char_1.getDamage());
+    System.out.println("Agility do novo char: " + char_1.getAgility());
 
     System.out.println("\n==============================\n\n");
   }

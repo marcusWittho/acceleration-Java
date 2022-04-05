@@ -16,3 +16,8 @@ Abaixo a imagem com uma parte do código e seu respectivo retorno
 ### Adição de um exemplo de polimorfismo do pacote polymorphism
 Abaixo a imagem com uma parte do código e seu respectivo retorno
 ![Class polymorphism output](images/class_subclass.png)
+
+### Implementação de uma classe abstrata
+Abaixo a imagem com a superClasse, subClasse e o arquivo main chamando os métodos pela subClasse
+![Class  bstractClass output](images/package_abstractClass_.png)
+

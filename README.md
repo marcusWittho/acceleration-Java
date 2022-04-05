@@ -7,6 +7,12 @@
 ![for output](images/class_for.png)
 
 ### Ao utilizar a classe 'Livro' do pacote 'JavaClasses' teremos o seguinte resultado
-![Calss Livro output](images/class_livro.png)
+![Class Livro output](images/class_livro.png)
 
-### Adicionado aos exemplos o pacote inheritance_1 com duas classes para exemplificar a utilização de herança.
+### Adicionado aos exemplos o pacote inheritance_1 com duas classes para exemplificar a utilização de herança
+Abaixo a imagem com uma parte do código e seu respectivo retorno
+![Class Character output](images/class_character.png)
+
+### Adição de um exemplo de polimorfismo do pacote polymorphism
+Abaixo a imagem com uma parte do código e seu respectivo retorno
+![Class polymorphism output](images/class_subclass.png)

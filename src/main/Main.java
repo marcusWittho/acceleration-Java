@@ -6,6 +6,7 @@ import ConditionalsAndRepetitions.LoopFor;
 import ConditionalsAndRepetitions.LoopWhile;
 import VarAndTypes.Variables;
 import inheritance_1.Character_1;
+import polymorphism.SubClass;
 
 public class Main {
   public static void main(String[] args) {
@@ -56,5 +57,10 @@ public class Main {
     System.out.println("Agility do novo char: " + char_1.getAgility());
 
     System.out.println("\n==============================\n\n");
+    
+    SubClass subclass = new SubClass();
+    System.out.println("Exemplo de utilização do Polimorfismo");
+    System.out.println("-----------------------------------");
+    subclass.SuperClassMethod();
   }
 }

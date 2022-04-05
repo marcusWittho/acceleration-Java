@@ -19,5 +19,5 @@ Abaixo a imagem com uma parte do código e seu respectivo retorno
 
 ### Implementação de uma classe abstrata
 Abaixo a imagem com a superClasse, subClasse e o arquivo main chamando os métodos pela subClasse
-![Class  bstractClass output](images/package_abstractClass_.png)
+![Class bstractClass output](images/package_abstractClass.png)
 

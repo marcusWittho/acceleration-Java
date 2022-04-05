@@ -5,6 +5,7 @@ import JavaClasses.Livro;
 import ConditionalsAndRepetitions.LoopFor;
 import ConditionalsAndRepetitions.LoopWhile;
 import VarAndTypes.Variables;
+import abstractClass.SubClasseAbstrata;
 import inheritance_1.Character_1;
 import polymorphism.SubClass;
 
@@ -62,5 +63,15 @@ public class Main {
     System.out.println("Exemplo de utilização do Polimorfismo");
     System.out.println("-----------------------------------");
     subclass.SuperClassMethod();
+    
+    System.out.println("\n==============================\n\n");
+    
+    SubClasseAbstrata subClasseAbstrata = new SubClasseAbstrata();
+    System.out.println("Exemplo de utilização de classes abstratas");
+    System.out.println("-----------------------------------");
+    subClasseAbstrata.concreteMethod();
+    subClasseAbstrata.abstractMethod();
+
+    System.out.println("\n==============================\n\n");
   }
 }

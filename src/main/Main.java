@@ -7,6 +7,8 @@ import ConditionalsAndRepetitions.LoopWhile;
 import VarAndTypes.Variables;
 import abstractClass.SubClasseAbstrata;
 import inheritance_1.Character_1;
+import interfaces.Enemy;
+import interfaces.Player;
 import polymorphism.SubClass;
 
 public class Main {
@@ -73,5 +75,18 @@ public class Main {
     subClasseAbstrata.abstractMethod();
 
     System.out.println("\n==============================\n\n");
+    
+    Player player = new Player(10, 3);
+    Enemy enemy = new Enemy(10, 2);
+    
+    System.out.println("Player life: " + player.getLife());
+    System.out.println("Player agility: " + player.getAgility());
+    System.out.println("Player damage: " + player.getDamage());
+    player.specialDamage();
+
+    System.out.println("\nEnemy life: " + enemy.getLife());
+    System.out.println("Enemy agility: " + enemy.getAgility());
+    System.out.println("Enemy damage: " + enemy.getDamage());
+    enemy.specialDamage();
   }
 }

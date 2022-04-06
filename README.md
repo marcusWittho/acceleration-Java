@@ -19,5 +19,9 @@ Abaixo a imagem com uma parte do código e seu respectivo retorno
 
 ### Implementação de uma classe abstrata
 Abaixo a imagem com a superClasse, subClasse e o arquivo main chamando os métodos pela subClasse
-![Class bstractClass output](images/package_abstractClass.png)
+![Class abstractClass output](images/package_abstractClass.png)
+
+### Implementação de interface
+abaixo a imagem com os dois objetos criados utilizando os conceitos de herança e interface
+![Package interfaces output](images/package_interfaces.png)
 

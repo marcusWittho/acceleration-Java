@@ -78,6 +78,8 @@ public class Main {
     
     Player player = new Player(10, 3);
     Enemy enemy = new Enemy(10, 2);
+    System.out.println("Exemplo de utilização de interface");
+    System.out.println("-----------------------------------");
     
     System.out.println("Player life: " + player.getLife());
     System.out.println("Player agility: " + player.getAgility());
